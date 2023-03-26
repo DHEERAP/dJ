@@ -8,7 +8,7 @@ const _ = require("lodash");
 
 
 const aboutContent = "The main focus of a daily journal website is to record daily thoughts, experiences, and reflections. You can encourage users to write about their day, their feelings, and their goals. You can also provide prompts or questions to help users get started with their writing.";
-const contactContent = "";
+const contactContent = " ";
 
 const app = express();
 
