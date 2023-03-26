@@ -13,8 +13,7 @@ const contactContent = "";
 const app = express();
 
 
-const homeStartingContent = " Welcome to My Daily Journal Here, I record my daily thoughts, experiences, and observations. It's a great way to reflect on my life and keep track of my personal growth.Each day, I try to write something meaningful, whether it's a personal story, a lesson I learned, or a goal I want to achieve. I also include photos, quotes, and other inspirations that help me stay motivated and inspired.I hope you enjoy reading my journal and find some inspiration for your own life. Remember, every day is a new opportunity to learn, grow, and make a difference."
-;
+const homeStartingContent = " Welcome to My Daily Journal Here, I record my daily thoughts, experiences, and observations. It's a great way to reflect on my life and keep track of my personal growth.Each day, I try to write something meaningful, whether it's a personal story, a lesson I learned, or a goal I want to achieve. I also include photos, quotes, and other inspirations that help me stay motivated and inspired.I hope you enjoy reading my journal and find some inspiration for your own life. Remember, every day is a new opportunity to learn, grow, and make a difference.";
 
 app.set('view engine', 'ejs');
 
@@ -22,6 +21,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 let postpush= [];//   
+
 
 
 
